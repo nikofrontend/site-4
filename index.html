@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="css/jquery.formstyler.css" rel="stylesheet" />
+    <link href="css/jquery.formstyler.theme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/jquery.rateyo.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Samsung</title>
+</head>
+
+<body id="body">
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="header__top">
+                    <ul class="header__top-menu">
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="#repair">О платформе</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="#connection">Контакты</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="tel:+380501111111">0501111111</a>
+                        </li>
+                    </ul>
+                    <a class="header__top-logo" aria-label="Логотип" href="#footer">
+                        <img class="header__top-logo__img" src="images/bg/logo.png" alt="Логотип">
+                    </a>
+                    <form class="header__top-filter" aria-label="Фильтр" action="$">
+                        <select class="header__top-select select-style">
+                            <option value="">Ваш город</option>
+                            <option value="">Киев</option>
+                            <option value="">Львов</option>
+                            <option value="">Одесса</option>
+                            <option value="">Днепр</option>
+                        </select>
+                    </form>
+                </nav>
+            </div>
+        </div>
+        <div class="header__slider">
+            <div class="container">
+                <div class="header__slider-items">
+                    <div class="header__slider-item"
+                        style="background-image: url('images/bg/slider-bg.png');background-position: center center; background-size: cover;">
+
+                        <div class="header__slider-offer">
+                            <h1 class="header__slider-title title">Сервисный центр Samsung в Киеве</h1>
+                            <p class="header__slider-text">
+                                Ремонт и обслуживание техники от мастеров
+                                с 10-летним опытом
+                            </p>
+                            <div class="header__slider-buttons">
+                                <a class="header__slider-btn"  aria-label="" href="#">ВЫБРАТЬ МАСТЕРА</a>
+                                <a class="header__slider-btn__call" href="#">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="header__slider-item"
+                        style="background-image: url('images/bg/slider-bg.png');background-position: center center; background-size: cover;">
+
+                        <div class="header__slider-offer">
+                            <h1 class="header__slider-title title">Сервисный центр Samsung в Киеве</h1>
+                            <p class="header__slider-text">
+                                Ремонт и обслуживание техники от мастеров
+                                с 10-летним опытом
+                            </p>
+                            <div class="header__slider-buttons">
+                                <a class="header__slider-btn" href="#">ВЫБРАТЬ МАСТЕРА</a>
+                                <a class="header__slider-btn__call" href="#">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="header__slider-item"
+                        style="background-image: url('images/bg/slider-bg.png');background-position: center center; background-size: cover;">
+
+                        <div class="header__slider-offer">
+                            <h1 class="header__slider-title title">Сервисный центр Samsung в Киеве</h1>
+                            <p class="header__slider-text">
+                                Ремонт и обслуживание техники от мастеров
+                                с 10-летним опытом
+                            </p>
+                            <div class="header__slider-buttons">
+                                <a class="header__slider-btn" href="#">ВЫБРАТЬ МАСТЕРА</a>
+                                <a class="header__slider-btn__call" href="#">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="privilege">
+            <div class="container">
+                <div class="privilege__items">
+                    <div class="privilege__item privilege__item--diagnostic">
+                        <p class="privilege__item-title">
+                            Бесплатная
+                            диагностика
+                        </p>
+                    </div>
+                    <div class="privilege__item privilege__item--help">
+                        <p class="privilege__item-title">
+                            Выезд мастера
+                            в течение 1 часа
+                        </p>
+                    </div>
+                    <div class="privilege__item privilege__item--repair">
+                        <p class="privilege__item-title">
+                            Ремонт
+                            за 1 день
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="repair" id="repair">
+            <div class="container">
+                <div class="repair__inner">
+                    <h2 class="repair__title title">Мы осуществляем ремонт техники Samsung всех видов</h2>
+                    <p class="repair__title-text">
+                        Чтобы ни произошло с Вашей техникой мы всегда постараемся найти самое оптимальное решение для
+                        восстановления её
+                        работоспособности и внешнего вида, обслужим и осуществим настройку
+                    </p>
+                    <div class="repair-tabs">
+                        <ul class="repair-tabs__menu">
+                            <li class="repair__menu-item">
+                                <a class="repair__menu-link repair__menu-link--active " href="#tab-1">
+                                    Бытовая техника
+                                </a>
+                            </li>
+                            <li class="repair__menu-item">
+                                <a class="repair__menu-link" href="#tab-2">
+                                    Цифровая техника
+                                </a>
+                            </li>
+                            <li class="repair__menu-item">
+                                <a class="repair__menu-link" href="#tab-3">
+                                    Компьютерная техника
+                                </a>
+                            </li>
+                            <li class="repair__menu-item">
+                                <a class="repair__menu-link" href="#tab-4">
+                                    ТВ и Аудио
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="repair__tabs__content">
+                            <div class="repair-tabs__content-item repair-tabs__content-item--active" id="tab-1">
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/vacuum-cleaners.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Пылесос</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/generator.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Парогенератор</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/thumbnail.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Гладильна система</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/washing-mashin.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Стиральная машина</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/dryer.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Сушильная машина</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/dishwasher.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Посудомоечная машина</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/freezer.png"
+                                        alt="Фотография" style="width: 142px;height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Холодильник</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/frontsilver.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Духовой шкаф</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/wt-frontsilver.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Варочная панель</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/conditioner.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Кухонная
+                                        вытяжка</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/ur-frontsilver.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Микроволновая
+                                        печь</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/conditioner.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Кондиционер</h4>
+                                </a>
+                            </div>
+                            <div class="repair-tabs__content-item" id="tab-2">
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/ps.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Игровые приставки</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/scooter.png"
+                                        alt="Фотография" style="width: 130px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Электро-транспорт</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/clock.png"
+                                        alt="Фотография" style="width: 130px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Ремонт часов</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/tech.png"
+                                        alt="Фотография" style="width: 130px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Строительная
+                                        техника</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/printers.png"
+                                        alt="Фотография" style="width: 130px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Офисная техника</h4>
+                                </a>
+                            </div>
+                            <div class="repair-tabs__content-item" id="tab-3">
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/pc.png"
+                                        alt="Фотография" style="width: 130px; height: 100px;">
+                                    <h4 class="repair-tabs__content-title">Компьютерная
+                                        техника</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/ru-robot.png"
+                                        alt="Фотография" style="width: 130px; height: 100px;">
+                                    <h4 class="repair-tabs__content-title">Робот-пылесос</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/scooter.png"
+                                        alt="Фотография" style="width: 130px; height: 100px;">
+                                    <h4 class="repair-tabs__content-title">Электро-транспорт</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/clock.png"
+                                        alt="Фотография" style="width: 130px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Ремонт часов</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/printers.png"
+                                        alt="Фотография" style="width: 130px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Офисная техника</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/ps.png"
+                                        alt="Фотография" style="width: 142px; height: 114px;">
+                                    <h4 class="repair-tabs__content-title">Игровые приставки</h4>
+                                </a>
+                            </div>
+                            <div class="repair-tabs__content-item" id="tab-4">
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/headphones.png"
+                                        alt="Фотография" style="width: 110px; height: 100px;">
+                                    <h4 class="repair-tabs__content-title">Аудиотехника</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/dryer.png"
+                                        alt="Фотография" style="width: 90px; height: 100px;">
+                                    <h4 class="repair-tabs__content-title">Концертное
+                                        оборудование</h4>
+                                </a>
+                                <a class="repair-tabs__content-box" href="#">
+                                    <img class="repair-tabs__content-img" src="images/photo/tabs/pc.png"
+                                        alt="Фотография" style="width: 130px; height: 100px;">
+                                    <h4 class="repair-tabs__content-title">Компьютерная
+                                        техника</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="repair__application">
+                        <h3 class="repair__application-title title">Не нашли свой вид техники?</h3>
+                        <p class="repair__application-text">
+                            Наши специалисты бесплатно вас проконсультируют и ответят на
+                            все вопросы по телефону 88008008000 или Вы можете оставить
+                            заявку и наш специалист свяжется с Вами в течение 1 часа
+                        </p>
+                        <a class="repair__application-link btn" href="#">ОСТАВИТЬ ЗАЯВКУ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="prize">
+            <div class="container">
+                <div class="prize__inner">
+                    <h2 class="prize__title title">Ответьте на 3 вопроса и получите подарок
+                        от нашего сервисного центра
+                    </h2>
+                    <div class="prize-content">
+                        <div class="prize__numbers">
+                            <a class="prize__numbers-item prize__numbers-item--active" href="#tab-9">01</a>
+                            <a class="prize__numbers-item" href="#tab-10">02</a>
+                            <a class="prize__numbers-item" href="#tab-11">03</a>
+                        </div>
+                        <div class="prize-content__items">
+                            <div class="prize-content__item prize-content__item--active" id="tab-9">
+                                <div class="prize-tabs">
+                                    <h3 class="prize-tabs__title">1. Выберите ваш вид техники</h3>
+                                    <ul class="prize-tabs__menu">
+                                        <li class="prize__menu-item">
+                                            <a class="prize__menu-link prize__menu-link--active" href="#tab-5">
+                                                Бытовая техника
+                                            </a>
+                                        </li>
+                                        <li class="prize__menu-item">
+                                            <a class="prize__menu-link" href="#tab-6">
+                                                Цифровая техника
+                                            </a>
+                                        </li>
+                                        <li class="prize__menu-item">
+                                            <a class="prize__menu-link" href="#tab-7">
+                                                Компьютерная техника
+                                            </a>
+                                        </li>
+                                        <li class="prize__menu-item">
+                                            <a class="prize__menu-link" href="#tab-8">
+                                                ТВ и Аудио
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="prize__tabs__content">
+                                        <div class="prize-tabs__content-item prize-tabs__content-item--active"
+                                            id="tab-5">
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/vacuum-cleaners.png" alt="Фотография"
+                                                    style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Пылесос</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/generator.png" alt="Фотография"
+                                                    style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Парогенератор</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/thumbnail.png" alt="Фотография"
+                                                    style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Гладильна система</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/washing-mashin.png" alt="Фотография"
+                                                    style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Стиральная машина</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img" src="images/photo/tabs/dryer.png"
+                                                    alt="Фотография" style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Сушильная машина</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/dishwasher.png" alt="Фотография"
+                                                    style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Посудомоечная
+                                                    машина</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/freezer.png" alt="Фотография"
+                                                    style="width: 142px;height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Холодильник</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/frontsilver.png" alt="Фотография"
+                                                    style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Духовой шкаф</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/wt-frontsilver.png" alt="Фотография"
+                                                    style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Варочная панель</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/conditioner.png" alt="Фотография"
+                                                    style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Кухонная
+                                                    вытяжка</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/ur-frontsilver.png" alt="Фотография"
+                                                    style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Микроволновая
+                                                    печь</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/conditioner.png" alt="Фотография"
+                                                    style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Кондиционер</h4>
+                                            </a>
+                                        </div>
+                                        <div class="prize-tabs__content-item" id="tab-6">
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img" src="images/photo/tabs/ps.png"
+                                                    alt="Фотография" style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Игровые приставки</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/scooter.png" alt="Фотография"
+                                                    style="width: 130px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Электро-транспорт</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img" src="images/photo/tabs/clock.png"
+                                                    alt="Фотография" style="width: 130px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Ремонт часов</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img" src="images/photo/tabs/tech.png"
+                                                    alt="Фотография" style="width: 130px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Строительная
+                                                    техника</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/printers.png" alt="Фотография"
+                                                    style="width: 130px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Офисная техника</h4>
+                                            </a>
+                                        </div>
+                                        <div class="prize-tabs__content-item" id="tab-7">
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img" src="images/photo/tabs/pc.png"
+                                                    alt="Фотография" style="width: 130px; height: 100px;">
+                                                <h4 class="repair-tabs__content-title">Компьютерная
+                                                    техника</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/ru-robot.png" alt="Фотография"
+                                                    style="width: 130px; height: 100px;">
+                                                <h4 class="repair-tabs__content-title">Робот-пылесос</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/scooter.png" alt="Фотография"
+                                                    style="width: 130px; height: 100px;">
+                                                <h4 class="repair-tabs__content-title">Электро-транспорт</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img" src="images/photo/tabs/clock.png"
+                                                    alt="Фотография" style="width: 130px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Ремонт часов</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/printers.png" alt="Фотография"
+                                                    style="width: 130px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Офисная техника</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img" src="images/photo/tabs/ps.png"
+                                                    alt="Фотография" style="width: 142px; height: 114px;">
+                                                <h4 class="repair-tabs__content-title">Игровые приставки</h4>
+                                            </a>
+                                        </div>
+                                        <div class="prize-tabs__content-item" id="tab-8">
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img"
+                                                    src="images/photo/tabs/headphones.png" alt="Фотография"
+                                                    style="width: 110px; height: 100px;">
+                                                <h4 class="repair-tabs__content-title">Аудиотехника</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img" src="images/photo/tabs/clock.png"
+                                                    alt="Фотография" style="width: 90px; height: 100px;">
+                                                <h4 class="repair-tabs__content-title">Концертное
+                                                    оборудование</h4>
+                                            </a>
+                                            <a class="repair-tabs__content-box" href="#">
+                                                <img class="repair-tabs__content-img" src="images/photo/tabs/pc.png"
+                                                    alt="Фотография" style="width: 130px; height: 100px;">
+                                                <h4 class="repair-tabs__content-title">Компьютерная
+                                                    техника</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prize-content__item" id="tab-10">
+                                <h3 class="prize-tabs__title">2. Немного подробнее</h3>
+                                <div class="prize-content__items-box">
+                                    <div class="prize-content__item-box">
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Посудомоечная машина</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Холодильник</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Стиральная машина</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Сушильная машина</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Варочная панель</span>
+                                        </label>
+                                    </div>
+                                    <div class="prize-content__item-box">
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Духовой шкаф</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Газовая плита</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Электроплита</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Вытяжка</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Промышленный холодильник</span>
+                                        </label>
+                                    </div>
+                                    <div class="prize-content__item-box">
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Витринный холодильник</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Рефрижератор</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Фризер для мороженного</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Морозильная камера</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Льдогенератор</span>
+                                        </label>
+                                    </div>
+                                    <div class="prize-content__item-box">
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Чиллер</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Пароконвектомат</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Газовая плита</span>
+                                        </label>
+                                        <label class="prize-content__item-label">
+                                            <input class="prize-content__item-input" name="color" type="radio">
+                                            <span>Электроплита</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prize-content__item" id="tab-11">
+                                <h3 class="prize-tabs__title">3. Где сломалось</h3>
+                                <form class="prize-tabs__blocks">
+                                    <label class="prize-tabs__label">
+                                        <input class="prize-tabs__checkbox-input" type="checkbox">
+
+                                        <div class="prize-tabs__checkbox">
+                                            <div class="prize-tabs__checkbox-imgbox">
+                                                <img class="prize-tabs__checkbox-img" src="images/tabs_icon/blob.png"
+                                                    alt="Иконка">
+                                            </div>
+
+                                            <p class="prize-tabs__blocks-subtitle">
+                                                Протекает
+                                            </p>
+                                        </div>
+                                    </label>
+                                    <label class="prize-tabs__label">
+                                        <input class="prize-tabs__checkbox-input" type="checkbox">
+
+                                        <div class="prize-tabs__checkbox">
+                                            <div class="prize-tabs__checkbox-imgbox">
+                                                <img class="prize-tabs__checkbox-img" src="images/tabs_icon/cold.png"
+                                                    alt="Иконка">
+                                            </div>
+
+                                            <p class="prize-tabs__blocks-subtitle">
+                                                Не охлаждает
+                                            </p>
+                                        </div>
+                                    </label>
+                                    <label class="prize-tabs__label">
+                                        <input class="prize-tabs__checkbox-input" type="checkbox">
+
+                                        <div class="prize-tabs__checkbox">
+                                            <div class="prize-tabs__checkbox-imgbox">
+                                                <img class="prize-tabs__checkbox-img" src="images/tabs_icon/battery.png"
+                                                    alt="Иконка">
+                                            </div>
+
+                                            <p class="prize-tabs__blocks-subtitle">
+                                                Не включается
+                                            </p>
+                                        </div>
+                                    </label>
+                                    <label class="prize-tabs__label">
+                                        <input class="prize-tabs__checkbox-input" type="checkbox">
+
+                                        <div class="prize-tabs__checkbox">
+                                            <div class="prize-tabs__checkbox-imgbox">
+                                                <img class="prize-tabs__checkbox-img"
+                                                    src="images/tabs_icon/Refreezes.png" alt="Иконка">
+                                            </div>
+
+                                            <p class="prize-tabs__blocks-subtitle">
+                                                Перемораживает
+                                            </p>
+                                        </div>
+                                    </label>
+                                    <label class="prize-tabs__label">
+                                        <input class="prize-tabs__checkbox-input" type="checkbox">
+
+                                        <div class="prize-tabs__checkbox">
+                                            <div class="prize-tabs__checkbox-imgbox">
+                                                <img class="prize-tabs__checkbox-img" src="images/tabs_icon/audio.png"
+                                                    alt="Иконка">
+                                            </div>
+
+                                            <p class="prize-tabs__blocks-subtitle">
+                                                Сильно шумит
+                                            </p>
+                                        </div>
+                                    </label>
+                                    <label class="prize-tabs__label">
+                                        <input class="prize-tabs__checkbox-input" type="checkbox">
+
+                                        <div class="prize-tabs__checkbox">
+                                            <div class="prize-tabs__checkbox-imgbox">
+                                                <img class="prize-tabs__checkbox-img" src="images/tabs_icon/ice.png"
+                                                    alt="Иконка">
+                                            </div>
+
+                                            <p class="prize-tabs__blocks-subtitle">
+                                                Покрывается
+                                                льдом
+                                            </p>
+                                        </div>
+                                    </label>
+                                    <label class="prize-tabs__label">
+                                        <input class="prize-tabs__checkbox-input" type="checkbox">
+
+                                        <div class="prize-tabs__checkbox">
+                                            <div class="prize-tabs__checkbox-imgbox">
+                                                <img class="prize-tabs__checkbox-img" src="images/tabs_icon/tempr.png"
+                                                    alt="Иконка">
+                                            </div>
+
+                                            <p class="prize-tabs__blocks-subtitle">
+                                                Не замораживает или плохо морозит
+                                            </p>
+                                        </div>
+                                    </label>
+                                    <label class="prize-tabs__label">
+                                        <input class="prize-tabs__checkbox-input" type="checkbox">
+
+                                        <div class="prize-tabs__checkbox">
+                                            <div class="prize-tabs__checkbox-imgbox">
+                                                <img class="prize-tabs__checkbox-img" src="images/tabs_icon/lock.png"
+                                                    alt="Иконка">
+                                            </div>
+
+                                            <p class="prize-tabs__blocks-subtitle">
+                                                Не закрывается дверца
+                                            </p>
+                                        </div>
+                                    </label>
+                                    <label class="prize-tabs__label">
+                                        <input class="prize-tabs__checkbox-input" type="checkbox">
+
+                                        <div class="prize-tabs__checkbox">
+                                            <div class="prize-tabs__checkbox-imgbox">
+                                                <img class="prize-tabs__checkbox-img" src="images/tabs_icon/smell.png"
+                                                    alt="Иконка">
+                                            </div>
+
+                                            <p class="prize-tabs__blocks-subtitle">
+                                                Неприятый
+                                                запах
+                                            </p>
+                                        </div>
+                                    </label>
+                                    <label class="prize-tabs__label">
+                                        <input class="prize-tabs__checkbox-input" type="checkbox">
+
+                                        <div class="prize-tabs__checkbox">
+                                            <div class="prize-tabs__checkbox-imgbox">
+                                                <img class="prize-tabs__checkbox-img"
+                                                    src="images/tabs_icon/electrick.png" alt="Иконка">
+                                            </div>
+
+                                            <p class="prize-tabs__blocks-subtitle">
+                                                Бьет током
+                                            </p>
+                                        </div>
+                                    </label>
+                                    <label class="prize-tabs__label">
+                                        <input class="prize-tabs__checkbox-input" type="checkbox">
+
+                                        <div class="prize-tabs__checkbox">
+                                            <div class="prize-tabs__checkbox-imgbox">
+                                                <img class="prize-tabs__checkbox-img" src="images/tabs_icon/off.png"
+                                                    alt="Иконка">
+                                            </div>
+
+                                            <p class="prize-tabs__blocks-subtitle">
+                                                Не выключается
+                                            </p>
+                                        </div>
+                                    </label>
+                                    <label class="prize-tabs__label">
+                                        <input class="prize-tabs__checkbox-input" type="checkbox">
+
+                                        <div class="prize-tabs__checkbox">
+                                            <div class="prize-tabs__checkbox-imgbox">
+                                                <img class="prize-tabs__checkbox-img" src="images/tabs_icon/light.png"
+                                                    alt="Иконка">
+                                            </div>
+
+                                            <p class="prize-tabs__blocks-subtitle">
+                                                Перегорела
+                                                лампочка
+                                            </p>
+                                        </div>
+                                    </label>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="delivery"
+            style="background-image: url('images/bg/delivery-bg.png'); background-repeat: no-repeat; background-position: top right;">
+            <div class="container">
+                <div class="delivery__inner">
+                    <div class="delivery__inner-box">
+                        <h4 class="delivery-title title">
+                            Мы дорожим
+                            вашим временем!
+                        </h4>
+                        <div class="delivery__text-box">
+                            <p class="delivery-text">Вам не нужно никуда ехать Мы сделаем все за вас</p>
+                            <p class="delivery-text">5 курьеров готовы к выезду прямо сейчас!</p>
+                        </div>
+                        <a class="delivery-btn btn" href="#">ВЫЗВАТЬ КУРЬЕРА</a>
+                        <p class="delivery__text-item">Услуга предоставляется бесплатно!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="stages">
+            <div class="container">
+                <div class="stages__inner">
+                    <h2 class="stages-title title">Ремонт может быть не только качественным, но и комфортным</h2>
+                    <p class="stages-subtitle">4 наших главных преимущества</p>
+                    <ul class="stages__items">
+                        <li class="stages__item">
+                            <div class="stages__item-title">
+                                <span class="stages__item-num">01</span>
+                                <h4 class="stages__item-text">9 из 10 продуктов
+                                    мы чиним за 1 день
+                                </h4>
+                            </div>
+                            <div class="level">
+                                <span class="" style="width: 30%;"></span>
+                            </div>
+                            <img class="stages__item-img" src="images/photo/stages/stages_photo-1.png" alt="Фотография">
+                        </li>
+                        <li class="stages__item">
+                            <div class="stages__item-title">
+                                <span class="stages__item-num">02</span>
+                                <h4 class="stages__item-text">
+                                    После ремонта техника
+                                    проходит контроль качества
+                                    по 26 пунктам
+                                </h4>
+                            </div>
+                            <div class="level">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <img class="stages__item-img" src="images/photo/stages/stages_photo-2.png" alt="Фотография">
+                        </li>
+                        <li class="stages__item">
+                            <div class="stages__item-title">
+                                <span class="stages__item-num">03</span>
+                                <h4 class="stages__item-text">
+                                    Диагностика 0 грн, даже
+                                    в случае отказа от ремонта
+                                </h4>
+                            </div>
+                            <div class="level">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <img class="stages__item-img" src="images/photo/stages/stages_photo-3.png" alt="Фотография">
+                        </li>
+                        <li class="stages__item">
+                            <div class="stages__item-title">
+                                <span class="stages__item-num">04</span>
+                                <h4 class="stages__item-text">
+                                    Наш менеджер будет держать вас в курсе всех этапов работы
+                                </h4>
+                            </div>
+                            <div class="level">
+                                <span style="width: 100%;"></span>
+                            </div>
+                            <img class="stages__item-img" src="images/photo/stages/stages_photo-4.png" alt="Фотография">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="discount">
+            <div class="container">
+                <div class="discount__inner">
+                    <h2 class="discount-title title">
+                        Оставьте заявку в течение 1часа и получите
+                        СКИДКУ 15%
+                    </h2>
+                    <div class="discount__clock-box">
+                        <p class="discount-text">До конца акции осталось</p>
+                        <div class="discount__clock" data-time='2022-12-20'>
+                            <div class="discount__clock-item">
+                                <span class="discount__hours"></span>
+                                <div class="discount__text">часов</div>
+                            </div>
+                            <div class="discount__clock-item">
+                                <span class="discount__minutes"></span>
+                                <div class="discount__text">минут</div>
+                            </div>
+                            <div class="discount__clock-item">
+                                <span class="discount__seconds"></span>
+                                <div class="discount__text">секунд</div>
+                            </div>
+                        </div>
+                        <div class="discount__box-btn">
+                            <a class="discount__btn btn" href="#">ПОЛУЧИТЬ СКИДКУ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="discount-bg" src="images/bg/clock-bg.png" alt="Фотография" style="width: 100%; height: 100%;">
+            <div class="discount__repair container">
+                <h3 class="discount__repair-title title">
+                    Сколько стоит ремонт Samsung:
+                </h3>
+                <p class="discount__repair-subtitle">Гарантируем лучшую цену в городе!</p>
+                <div class="discount__repair-items">
+                    <ul class="discount__repair-list">
+                        <li class="discount__repair-item">
+                            <p class="discount__repair-item__name">Ремонт пылесоса</p>
+                            <span>от 200 грн</span>
+                        </li>
+                        <li class="discount__repair-item">
+                            <p class="discount__repair-item__name">Ремонт кофеварки</p>
+                            <span>от 100 грн</span>
+                        </li>
+                        <li class="discount__repair-item">
+                            <p class="discount__repair-item__name">Ремонт мультиварки</p>
+                            <span>от 250 грн</span>
+                        </li>
+                        <li class="discount__repair-item">
+                            <p class="discount__repair-item__name">Ремонт утюга</p>
+                            <span>от 200 грн</span>
+                        </li>
+                    </ul>
+                    <ul class="discount__repair-list">
+                        <li class="discount__repair-item">
+                            <p class="discount__repair-item__name">Ремонт пылесоса</p>
+                            <span>от 200 грн</span>
+                        </li>
+                        <li class="discount__repair-item">
+                            <p class="discount__repair-item__name">Ремонт кофеварки</p>
+                            <span>от 100 грн</span>
+                        </li>
+                        <li class="discount__repair-item">
+                            <p class="discount__repair-item__name">Ремонт мультиварки</p>
+                            <span>от 250 грн</span>
+                        </li>
+                        <li class="discount__repair-item">
+                            <p class="discount__repair-item__name">Ремонт утюга</p>
+                            <span>от 200 грн</span>
+                        </li>
+                    </ul>
+                    <ul class="discount__repair-list">
+                        <li class="discount__repair-item">
+                            <p class="discount__repair-item__name">Ремонт пылесоса</p>
+                            <span>от 200 грн</span>
+                        </li>
+                        <li class="discount__repair-item">
+                            <p class="discount__repair-item__name">Ремонт кофеварки</p>
+                            <span>от 100 грн</span>
+                        </li>
+                        <li class="discount__repair-item">
+                            <p class="discount__repair-item__name">Ремонт мультиварки</p>
+                            <span>от 250 грн</span>
+                        </li>
+                        <li class="discount__repair-item">
+                            <p class="discount__repair-item__name">Ремонт утюга</p>
+                            <span>от 200 грн</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="discount__repair-button">
+                    <p class="discount__repair-button__text">
+                        Не нашли цену на ремонт своего устройства?
+                    </p>
+                    <a class="discount__repair-button__link btn" href="#">ПОСМОТРЕТЬ ПРАЙС</a>
+                </div>
+            </div>
+        </section>
+        <section class="service" id="service">
+            <div class="container">
+                <div class="service__inner">
+                    <h2 class="service-title title">
+                        Мы подобрали лучших мастеров:
+                    </h2>
+                    <div class="service__masters">
+                        <div class="service__masters-item">
+                            <img class="service__masters-img" src="images/photo/service/master-1.jpg" alt="Фотография">
+                            <div class="service__masters-item__box">
+                                <p class="service__masters-item__name">Антон Грисевич</p>
+                                <div class="service__masters-item__text">
+                                    <p>Мастер по ремонту бытовой техники</p>
+                                    <p>Стаж работы: 7 лет</p>
+                                </div>
+                                <div class="service__masters-review">
+                                    <div class="service__masters-review__star star" data-rateyo-rating='4.5'>
+
+                                    </div>
+                                    <p class="service__masters-review__text">4,5 </p>
+                                    <span>24 оценки</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__masters-item">
+                            <img class="service__masters-img" src="images/photo/service/master-2.jpg" alt="Фотография">
+                            <div class="service__masters-item__box">
+                                <p class="service__masters-item__name">Павел Матухно</p>
+                                <div class="service__masters-item__text">
+                                    <p>Мастер по ремонту стиральных машин</p>
+                                    <p>Стаж работы: 7 лет</p>
+                                </div>
+                                <div class="service__masters-review">
+                                    <div class="service__masters-review__star star" data-rateyo-rating='5'>
+
+                                    </div>
+                                    <p class="service__masters-review__text">5</p>
+                                    <span>15 оценок</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__masters-item">
+                            <img class="service__masters-img" src="images/photo/service/master-3.jpg" alt="Фотография">
+                            <div class="service__masters-item__box">
+                                <p class="service__masters-item__name">Антон Грисевич</p>
+                                <div class="service__masters-item__text">
+                                    <p>Мастер по ремонту бытовой техники</p>
+                                    <p>Стаж работы: 7 лет</p>
+                                </div>
+                                <div class="service__masters-review">
+                                    <div class="service__masters-review__star star" data-rateyo-rating='4.5'>
+
+                                    </div>
+                                    <p class="service__masters-review__text">4,5 </p>
+                                    <span>24 оценки</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__masters-item">
+                            <img class="service__masters-img" src="images/photo/service/master-4.jpg" alt="Фотография">
+                            <div class="service__masters-item__box">
+                                <p class="service__masters-item__name">Павел Матухно</p>
+                                <div class="service__masters-item__text">
+                                    <p>Мастер по ремонту стиральных машин</p>
+                                    <p>Стаж работы: 7 лет</p>
+                                </div>
+                                <div class="service__masters-review">
+                                    <div class="service__masters-review__star star" data-rateyo-rating='4.5'>
+
+                                    </div>
+                                    <p class="service__masters-review__text">4,5 </p>
+                                    <span>24 оценки</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service__history">
+                    <h2 class="service__history-title title">Истории последних обращений в наш сервис</h2>
+                    <div class="service__history-slider">
+                        <div class="service__history-item">
+                            <div class="service__history-device"
+                                style="background-image: url(images/photo/service/phone-bg.jpg);">
+                                <h4 class="service__history-device__title">Смартфон Galaxy Note20 Ultra</h4>
+                                <div class="service__history-device__box">
+                                    <div class="service__history-device__text">
+                                        <p>Проблема:</p>
+                                        <p>Повреждение экрана (трещины на дисплее и тачскрине)</p>
+                                    </div>
+                                    <div class="service__history-device__text">
+                                        <p>Решение:</p>
+                                        <p>Замена экрана</p>
+                                    </div>
+                                    <div class="service__history-device__text">
+                                        <p>Срок гарантии: <span>1 месяц</span></p>
+                                        <p>Стоимость работы: <span>100 грн</span></p>
+                                    </div>
+                                </div>
+                                <p class="service__history-device__master">Мастер: Геннадий Левченко</p>
+                            </div>
+                            <div class="service__history-review">
+                                <div class="service__history-review__client">
+                                    <img class="service__history-review__img" src="images/photo/service/customer.jpg"
+                                        alt="Аватар" style="width: 95px; height: 95px;">
+                                    <div class="service__history-review__namebox">
+                                        <p class="service__history-review__name">Иван Красов</p>
+                                        <p class="service__history-review__subtitle">Клиент сервисного центра</p>
+                                        <p class="service__history-review__brand">Samsung</p>
+                                        <p class="service__history-review__master"><span>Мастер</span>Николай Филатов
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service__history-review__box">
+                                    <p>
+                                        Я отдавал в ремонт телефон Samsung. До этого сервиса обратилась в другой, а там
+                                        запчасти для моей модели закончились. Я
+                                        позвонил сюда, уточнил, попросил, чтобы за сутки все точно сделали. Мне
+                                        пообещали,
+                                        что успеют, и не обманули – на
+                                        следующий день ближе к вечеру телефон был готов. Дали гарантию, так что если
+                                        будут
+                                        какие-то проблемы, обращусь к ним же.
+                                    </p>
+                                    <div class="service__history-review__footer">
+                                        <p class="service__history-review__date">19.12.2020</p>
+                                        <div class="star" data-rateyo-rating="5"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__history-item">
+                            <div class="service__history-device"
+                                style="background-image: url(images/photo/service/phone-bg.jpg); ">
+                                <h4 class="service__history-device__title">Смартфон Galaxy Note20 Ultra</h4>
+                                <div class="service__history-device__box">
+                                    <div class="service__history-device__text">
+                                        <p>Проблема:</p>
+                                        <p>Повреждение экрана (трещины на дисплее и тачскрине)</p>
+                                    </div>
+                                    <div class="service__history-device__text">
+                                        <p>Решение:</p>
+                                        <p>Замена экрана</p>
+                                    </div>
+                                    <div class="service__history-device__text">
+                                        <p>Срок гарантии: <span>1 месяц</span></p>
+                                        <p>Стоимость работы: <span>100 грн</span></p>
+                                    </div>
+                                </div>
+                                <p class="service__history-device__master">Мастер: Геннадий Левченко</p>
+                            </div>
+                            <div class="service__history-review">
+                                <div class="service__history-review__client">
+                                    <img class="service__history-review__img" src="images/photo/service/customer-2.jpg"
+                                        alt="Аватар" style="width: 95px; height: 95px;">
+                                    <div class="service__history-review__namebox">
+                                        <p class="service__history-review__name">Иван Костейчук</p>
+                                        <p class="service__history-review__subtitle">Клиент сервисного центра</p>
+                                        <p class="service__history-review__brand">Samsung</p>
+                                        <p class="service__history-review__master"><span>Мастер</span>Николай Филатов
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service__history-review__box">
+                                    <p>
+                                        Я отдавал в ремонт телефон Samsung. До этого сервиса обратилась в другой, а там
+                                        запчасти для моей модели закончились. Я
+                                        позвонил сюда, уточнил, попросил, чтобы за сутки все точно сделали. Мне
+                                        пообещали,
+                                        что успеют, и не обманули – на
+                                        следующий день ближе к вечеру телефон был готов. Дали гарантию, так что если
+                                        будут
+                                        какие-то проблемы, обращусь к ним же.
+                                    </p>
+                                    <div class="service__history-review__footer">
+                                        <p class="service__history-review__date">19.12.2020</p>
+                                        <div class="star" data-rateyo-rating="5"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__history-item">
+                            <div class="service__history-device"
+                                style="background-image: url(images/photo/service/phone-bg.jpg);">
+                                <h4 class="service__history-device__title">Смартфон Galaxy Note20 Ultra</h4>
+                                <div class="service__history-device__box">
+                                    <div class="service__history-device__text">
+                                        <p>Проблема:</p>
+                                        <p>Повреждение экрана (трещины на дисплее и тачскрине)</p>
+                                    </div>
+                                    <div class="service__history-device__text">
+                                        <p>Решение:</p>
+                                        <p>Замена экрана</p>
+                                    </div>
+                                    <div class="service__history-device__text">
+                                        <p>Срок гарантии: <span>1 месяц</span></p>
+                                        <p>Стоимость работы: <span>100 грн</span></p>
+                                    </div>
+                                </div>
+                                <p class="service__history-device__master">Мастер: Геннадий Левченко</p>
+                            </div>
+                            <div class="service__history-review">
+                                <div class="service__history-review__client">
+                                    <img class="service__history-review__img" src="images/photo/service/customer.jpg"
+                                        alt="Аватар" style="width: 95px; height: 95px;">
+                                    <div class="service__history-review__namebox">
+                                        <p class="service__history-review__name">Иван Красов</p>
+                                        <p class="service__history-review__subtitle">Клиент сервисного центра</p>
+                                        <p class="service__history-review__brand">Samsung</p>
+                                        <p class="service__history-review__master"><span>Мастер</span>Николай Филатов
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service__history-review__box">
+                                    <p>
+                                        Я отдавал в ремонт телефон Samsung. До этого сервиса обратилась в другой, а там
+                                        запчасти для моей модели закончились. Я
+                                        позвонил сюда, уточнил, попросил, чтобы за сутки все точно сделали. Мне
+                                        пообещали,
+                                        что успеют, и не обманули – на
+                                        следующий день ближе к вечеру телефон был готов. Дали гарантию, так что если
+                                        будут
+                                        какие-то проблемы, обращусь к ним же.
+                                    </p>
+                                    <div class="service__history-review__footer">
+                                        <p class="service__history-review__date">19.12.2020</p>
+                                        <div class="star" data-rateyo-rating="5"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__history-item">
+                            <div class="service__history-device"
+                                style="background-image: url(images/photo/service/phone-bg.jpg); ">
+                                <h4 class="service__history-device__title">Смартфон Galaxy Note20 Ultra</h4>
+                                <div class="service__history-device__box">
+                                    <div class="service__history-device__text">
+                                        <p>Проблема:</p>
+                                        <p>Повреждение экрана (трещины на дисплее и тачскрине)</p>
+                                    </div>
+                                    <div class="service__history-device__text">
+                                        <p>Решение:</p>
+                                        <p>Замена экрана</p>
+                                    </div>
+                                    <div class="service__history-device__text">
+                                        <p>Срок гарантии: <span>1 месяц</span></p>
+                                        <p>Стоимость работы: <span>100 грн</span></p>
+                                    </div>
+                                </div>
+                                <p class="service__history-device__master">Мастер: Геннадий Левченко</p>
+                            </div>
+                            <div class="service__history-review">
+                                <div class="service__history-review__client">
+                                    <img class="service__history-review__img" src="images/photo/service/customer-2.jpg"
+                                        alt="Аватар" style="width: 95px; height: 95px;">
+                                    <div class="service__history-review__namebox">
+                                        <p class="service__history-review__name">Иван Костейчук</p>
+                                        <p class="service__history-review__subtitle">Клиент сервисного центра</p>
+                                        <p class="service__history-review__brand">Samsung</p>
+                                        <p class="service__history-review__master"><span>Мастер</span>Николай Филатов
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service__history-review__box">
+                                    <p>
+                                        Я отдавал в ремонт телефон Samsung. До этого сервиса обратилась в другой, а там
+                                        запчасти для моей модели закончились. Я
+                                        позвонил сюда, уточнил, попросил, чтобы за сутки все точно сделали. Мне
+                                        пообещали,
+                                        что успеют, и не обманули – на
+                                        следующий день ближе к вечеру телефон был готов. Дали гарантию, так что если
+                                        будут
+                                        какие-то проблемы, обращусь к ним же.
+                                    </p>
+                                    <div class="service__history-review__footer">
+                                        <p class="service__history-review__date">19.12.2020</p>
+                                        <div class="star" data-rateyo-rating="5"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews__slider">
+                    <div class="reviews__slider-item">
+                        <div class="reviews__rating">
+                            <h2 class="reviews__title">Отзывы</h2>
+                            <div class="reviews__rating-box">
+                                <div class="reviews__rating-text">
+                                    <span class="reviews__rating-number">4.8</span>
+                                    <div class="reviews__rating-starbox">
+                                        <p>На основании 27 отзывов</p>
+                                        <div class="star reviews__star" data-rateyo-rating="4"></div>
+                                    </div>
+                                </div>
+                                <ul class="reviews__items">
+                                    <li class="reviews__item">
+                                        <span>5</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 80%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>80%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>4</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 0%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>0%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>3</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 5%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>5%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>2</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 10%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>10%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>1</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 50%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>50%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header__slider-buttons">
+                                <a class="reviews__rating-btn reviews__rating-btn--link" href="#connection">ОСТАВИТЬ ОТЗЫВ</a>
+                                <a class="reviews__rating-btn__call" href="#">ЧИТАТЬ ВСЕ ОТЗЫВЫ</a>
+                            </div>
+                        </div>
+                        <div class="reviews__card">
+                            <p class="reviews__card-text">
+                                Спасибо за спасённый ноутбук! Обратился за профессиональной чисткой после разлитого на
+                                ноут
+                                чая, сделали быстро и
+                                качественно, всё объяснили и рассказали, как действовать в таких случаях. Очень
+                                рекомендую!
+                            </p>
+                            <div class="reviews__card-box">
+                                <img class="reviews__card-img" src="images/photo/reviews/avatar-1.jpg" alt="Аватар"
+                                    style="width:96px;height: 96px;">
+                                <p class="reviews__card-name">Александр Меньшов</p>
+                                <p class="reviews__card-box__text">Клиент сервисного центра <span>Samsung</span></p>
+                                <p class="reviews__card-box__text">Мастер <span>Николай Антоненко</span></p>
+                            </div>
+                            <div class="reviews__card-footer">
+                                <p>19.12.2021</p>
+                                <div class="star" data-rateyo-rating="5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__slider-item">
+                        <div class="reviews__rating">
+                            <h2 class="reviews__title">Отзывы</h2>
+                            <div class="reviews__rating-box">
+                                <div class="reviews__rating-text">
+                                    <span class="reviews__rating-number">4.9</span>
+                                    <div class="reviews__rating-starbox">
+                                        <p>На основании 27 отзывов</p>
+                                        <div class="star reviews__star" data-rateyo-rating="4.9"></div>
+                                    </div>
+                                </div>
+                                <ul class="reviews__items">
+                                    <li class="reviews__item">
+                                        <span>5</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 90%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>90%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>4</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 10%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>5%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>3</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 5%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>5%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>2</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 10%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>10%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>1</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 50%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>50%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header__slider-buttons">
+                                <a class="reviews__rating-btn reviews__rating-btn--link" href="#connection">ОСТАВИТЬ ОТЗЫВ</a>
+                                <a class="reviews__rating-btn__call" href="#">ЧИТАТЬ ВСЕ ОТЗЫВЫ</a>
+                            </div>
+                        </div>
+                        <div class="reviews__card">
+                            <p class="reviews__card-text">
+                                Спасибо за спасённый ноутбук! Обратился за профессиональной чисткой после разлитого на
+                                ноут
+                                чая, сделали быстро и
+                                качественно, всё объяснили и рассказали, как действовать в таких случаях. Очень
+                                рекомендую!
+                            </p>
+                            <div class="reviews__card-box">
+                                <img class="reviews__card-img" src="images/photo/reviews/avatar-2.jpg" alt="Аватар"
+                                    style="width:96px;height: 96px;">
+                                <p class="reviews__card-name">Иван Простреловв</p>
+                                <p class="reviews__card-box__text">Клиент сервисного центра <span>Samsung</span></p>
+                                <p class="reviews__card-box__text">Мастер <span>Николай Антоненко</span></p>
+                            </div>
+                            <div class="reviews__card-footer">
+                                <p>19.12.2021</p>
+                                <div class="star" data-rateyo-rating="5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__slider-item">
+                        <div class="reviews__rating">
+                            <h2 class="reviews__title">Отзывы</h2>
+                            <div class="reviews__rating-box">
+                                <div class="reviews__rating-text">
+                                    <span class="reviews__rating-number">4.8</span>
+                                    <div class="reviews__rating-starbox">
+                                        <p>На основании 27 отзывов</p>
+                                        <div class="star reviews__star" data-rateyo-rating="4"></div>
+                                    </div>
+                                </div>
+                                <ul class="reviews__items">
+                                    <li class="reviews__item">
+                                        <span>5</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 80%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>80%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>4</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 0%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>0%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>3</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 5%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>5%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>2</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 10%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>10%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>1</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 50%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>50%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header__slider-buttons">
+                                <a class="reviews__rating-btn reviews__rating-btn--link" href="#connection">ОСТАВИТЬ ОТЗЫВ</a>
+                                <a class="reviews__rating-btn__call" href="#">ЧИТАТЬ ВСЕ ОТЗЫВЫ</a>
+                            </div>
+                        </div>
+                        <div class="reviews__card">
+                            <p class="reviews__card-text">
+                                Спасибо за спасённый ноутбук! Обратился за профессиональной чисткой после разлитого на
+                                ноут
+                                чая, сделали быстро и
+                                качественно, всё объяснили и рассказали, как действовать в таких случаях. Очень
+                                рекомендую!
+                            </p>
+                            <div class="reviews__card-box">
+                                <img class="reviews__card-img" src="images/photo/reviews/avatar-1.jpg" alt="Аватар"
+                                    style="width:96px;height: 96px;">
+                                <p class="reviews__card-name">Александр Меньшов</p>
+                                <p class="reviews__card-box__text">Клиент сервисного центра <span>Samsung</span></p>
+                                <p class="reviews__card-box__text">Мастер <span>Николай Антоненко</span></p>
+                            </div>
+                            <div class="reviews__card-footer">
+                                <p>19.12.2021</p>
+                                <div class="star" data-rateyo-rating="5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__slider-item">
+                        <div class="reviews__rating">
+                            <h2 class="reviews__title">Отзывы</h2>
+                            <div class="reviews__rating-box">
+                                <div class="reviews__rating-text">
+                                    <span class="reviews__rating-number">4.9</span>
+                                    <div class="reviews__rating-starbox">
+                                        <p>На основании 27 отзывов</p>
+                                        <div class="star reviews__star" data-rateyo-rating="4.9"></div>
+                                    </div>
+                                </div>
+                                <ul class="reviews__items">
+                                    <li class="reviews__item">
+                                        <span>5</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 90%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>90%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>4</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 10%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>5%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>3</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 5%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>5%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>2</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 10%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>10%</span>
+                                    </li>
+                                    <li class="reviews__item">
+                                        <span>1</span>
+                                        <div class="reviews__item-level">
+                                            <div class="level">
+                                                <span class="" style="width: 50%;"></span>
+                                            </div>
+                                        </div>
+                                        <span>50%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header__slider-buttons">
+                                <a class="reviews__rating-btn reviews__rating-btn--link" href="#connection">ОСТАВИТЬ ОТЗЫВ</a>
+                                <a class="reviews__rating-btn__call" href="#">ЧИТАТЬ ВСЕ ОТЗЫВЫ</a>
+                            </div>
+                        </div>
+                        <div class="reviews__card">
+                            <p class="reviews__card-text">
+                                Спасибо за спасённый ноутбук! Обратился за профессиональной чисткой после разлитого на
+                                ноут
+                                чая, сделали быстро и
+                                качественно, всё объяснили и рассказали, как действовать в таких случаях. Очень
+                                рекомендую!
+                            </p>
+                            <div class="reviews__card-box">
+                                <img class="reviews__card-img" src="images/photo/reviews/avatar-2.jpg" alt="Аватар"
+                                    style="width:96px;height: 96px;">
+                                <p class="reviews__card-name">Иван Простреловв</p>
+                                <p class="reviews__card-box__text">Клиент сервисного центра <span>Samsung</span></p>
+                                <p class="reviews__card-box__text">Мастер <span>Николай Антоненко</span></p>
+                            </div>
+                            <div class="reviews__card-footer">
+                                <p>19.12.2021</p>
+                                <div class="star" data-rateyo-rating="5"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="connection" id="connection">
+            <div class="container">
+                <div class="connection__inner">
+                    <h2 class="connection__title title">Мы будем рады вашему отзыву</h2>
+                    <form class="connection__form">
+                        <p>Введено символов 0 / 1000</p>
+                        <label class="connection__label" for="review">
+                            <textarea class="connection__input connection__input--resize" name="review"
+                                placeholder="Отзыв"></textarea>
+                        </label>
+                        <div class="connection__input-box">
+                            <label class="connection__label" for="name">
+                                <input class="connection__input" type="text" name="name" placeholder="Ваше имя"
+                                    required>
+                            </label>
+                            <label c aclass="connection__label" for="phone">
+                                <input class="connection__input" type="text" name="phone" placeholder="Номер телефона"
+                                    required>
+                            </label>
+                            <label c aclass="connection__label" for="service">
+                                <input class="connection__input" type="text" name="service"
+                                    placeholder="Ваш сервисный центр" required>
+                            </label>
+                            <label c aclass="connection__label" for="master">
+                                <input class="connection__input" type="text" name="master"
+                                    placeholder="Имя вашего мастера" required>
+                            </label>
+                        </div>
+                        <div class="connection__box">
+                            <div class="connection__box-rating">
+                                <h5 class="connection__star-title">Ваша оценка</h5>
+                                <div class="star-form">
+
+                                </div>
+                            </div>
+                            <div class="header__slider-buttons">
+                                <a class="reviews__rating-btn" href="#">ОТПРАВИТЬ</a>
+                                <a class="reviews__rating-btn__call" href="#">ОТМЕНА</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <ul class="footer__box">
+                    <li class="footer__item">
+                        <a class="footer__link" href="#repair">
+                            О платформе
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#service">
+                            Выбрать сервисный центр
+                        </a>
+                    </li>
+                    <li class="footer__item footer__item--logo">
+                        <a class="header__top-logo"  aria-label="Логотип" href="#header">
+                            <img class="header__top-logo__img" src="images/bg/logo.png" alt="Логотип">
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#connection">
+                            Оставить отзыв
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link"  href="tel:+380501111111">0501111111
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.rateyo.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
